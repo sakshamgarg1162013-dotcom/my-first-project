@@ -19,7 +19,7 @@ int peakelement(int arr[], int n) {
 }
 
 int main() {
-    int arr[5] = {0, 10, 5, 3, 2};
-    cout << "The peak element is " << peakelement(arr, 5) << endl;
+    int arr[4] = {0,2,1,0};
+    cout << "The peak element is " << peakelement(arr, 4) << endl;
     return 0;
 }
